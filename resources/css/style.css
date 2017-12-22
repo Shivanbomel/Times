@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+
+header{
+  display:flex;
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height:80px;
+  align-items: center;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+}
+
+.logo{
+  margin:10px;
+  height:60px;
+}
+
+.sublogo{
+  color:MediumAquamarine;
+
+}
+
+div.title{
+  padding-left: 30px;
+  display: inline-flex;
+  align-items: center;
+
+}
+
+nav.nav{
+  margin-right: 30px;
+}
+
+.nav span a{
+  margin: 10px;
+  color:black;
+  font-family: Verdana;
+}
+
+.part{
+  border: 1px solid black;
+}
+
+
+.large {
+  width: 630px;
+
+}
+
+.medium {
+  width: 300px;
+
+}
+
+.small {
+  width: 240px;
+
+}
+
+.column{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto 78px auto;
+padding-top: 20px;
+    flex-wrap:nowrap;
+    border:1px solid black;
+    position:relative;
+    top: 80px;
+}
+
+.large{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.medium{
+  display: flex;
+flex-direction: column;
+margin-right: 32px;
+}
+.small{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+img {
+  height: 240px;
+}
+
+.large .phish{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  height: 80px;
+}
+
+.phish{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
